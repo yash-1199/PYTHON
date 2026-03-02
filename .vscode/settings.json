@@ -1,0 +1,8 @@
+{
+    // Workspace settings for disabling autocomplete and inline suggestions
+    "editor.quickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.suggest.showWords": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off"
+}
