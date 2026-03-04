@@ -1,6 +1,10 @@
 {
     // Workspace settings for disabling autocomplete and inline suggestions
-    "editor.quickSuggestions": false,
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+    },
     "editor.suggestOnTriggerCharacters": false,
     "editor.suggest.showWords": false,
     "editor.inlineSuggest.enabled": false,

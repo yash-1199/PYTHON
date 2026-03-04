@@ -1,0 +1,13 @@
+How to connect to git with username and email 
+How to clone the code from git -initially 
+How to pull the code from git –changes merges in my local 
+
+How to commit and push the code into g
+Developers: 3 steps 
+Git add. 
+Git add. 
+Local----->stage---->repo(remote) 
+Git add loops.py 
+Git commit –m '"this is for leaning purpose"===>commit 
+Git push origin main==>push code to remote from stage env 
+git remote -v ==> to get the status of origin
