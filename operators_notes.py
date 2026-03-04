@@ -39,7 +39,7 @@ print(not p)    # False
 # 5. Bitwise operators
 m = 5   # 0101
 n = 3   # 0011
-
+print('hi')
 print(m & n)    # 1  (AND)
 print(m | n)    # 7  (OR)
 print(m ^ n)    # 6  (XOR)
