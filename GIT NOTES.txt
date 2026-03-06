@@ -7,7 +7,11 @@ Developers: 3 steps
 Git add. 
 Git add. 
 Local----->stage---->repo(remote) 
+
+
 Git add loops.py 
 Git commit –m '"this is for leaning purpose"===>commit 
 Git push origin main==>push code to remote from stage env 
 git remote -v ==> to get the status of origin
+git remote add  origin "https://github.com/yash-1199/PYTHON.git"
+git push -u origin main===>first push
