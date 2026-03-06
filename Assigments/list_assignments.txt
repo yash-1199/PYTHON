@@ -1,0 +1,90 @@
+1. Print all numbers in the list.
+
+numbers = [5, 10, 15, 20]
+
+2. Find the sum of all numbers in the list.
+
+numbers = [3, 6, 9, 12]
+
+3. Count how many numbers are in the list (without using len()).
+
+numbers = [2, 4, 6, 8, 10]
+
+4. Print each number multiplied by 2.
+
+numbers = [1, 2, 3, 4]
+
+5. Print only even numbers from the list.
+
+numbers = [1, 2, 3, 4, 5, 6]
+
+6. Print all names in the list.
+
+names = ["ram", "sita", "krishna"]
+
+7. Convert all names to uppercase.
+
+names = ["ram", "sita", "hari"]
+
+8. Print the length of each name.
+
+names = ["ram", "krishna", "sita"]
+
+9. Print names that have more than 4 letters.
+
+names = ["ram", "krishna", "hari", "gopal"]
+
+10. Create a new list with names ending with "a".
+
+names = ["ram", "sita", "hari", "gopal"]
+
+
+*******************************************************************************************
+1. Find the largest number in the list.
+
+numbers = [12, 45, 7, 34, 89, 23]
+
+2. Find the smallest number in the list.
+
+numbers = [25, 10, 55, 3, 90]
+
+3. Count how many numbers are greater than 20.
+
+numbers = [5, 25, 30, 10, 40, 15]
+
+4. Create a new list containing squares of each number.
+
+numbers = [2, 4, 6, 8]
+
+Expected output:
+[4, 16, 36, 64]
+
+5. Create a new list with numbers greater than 10.
+
+numbers = [5, 12, 8, 20, 3, 15]
+
+Expected output:
+[12, 20, 15]
+
+6. Print names that start with the letter "a".
+
+names = ["ram", "arun", "sita", "anil", "krishna"]
+
+7. Count how many names contain the letter "a".
+
+names = ["ram", "sita", "hari", "john", "krishna"]
+
+8. Create a new list with names converted to uppercase.
+
+names = ["ram", "sita", "gopal"]
+
+9. Find the longest name in the list.
+
+names = ["ram", "krishna", "hari", "gopal"]
+
+10. Create a new list containing names with more than 4 letters.
+
+names = ["ram", "krishna", "hari", "gopal", "sita"]
+
+Expected output:
+["krishna", "gopal"]
