@@ -40,6 +40,16 @@ password='admin1234'
 #     password!='admin123'
 #     print('invalid password')
 
+
+
+# if username=='admin' or ssword=='admin123':
+#     print('login successful')
+# elif username!='admin':
+#     print('invalid username')
+# else:
+#     password!='admin123'
+#     print('invalid password')
+
 if username!='admin':
     print('invalid user name')
 elif password!='admin123':
