@@ -10,5 +10,7 @@ def read_csv(filepath):
     return data
 
 
+#print(read_csv('Data\\raw\\students.csv'))
 
+#
 

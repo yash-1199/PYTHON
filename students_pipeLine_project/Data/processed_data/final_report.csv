@@ -1,0 +1,61 @@
+student_name,course_name,score
+Student_47,Spark,94
+Student_8,Cloud Basics,65
+Student_36,Statistics,100
+Student_40,Data Visualization,96
+Student_13,SQL,62
+Student_43,Machine Learning,78
+Student_6,Machine Learning,66
+Student_25,Statistics,89
+Student_41,Data Visualization,70
+Student_24,Data Visualization,73
+Student_43,Statistics,64
+Student_39,Data Engineering,94
+Student_47,Machine Learning,70
+Student_30,Cloud Basics,77
+Student_60,ETL Design,74
+Student_44,Data Visualization,63
+Student_15,Python,80
+Student_26,Statistics,64
+Student_14,Linux,80
+Student_14,Spark,85
+Student_57,Spark,69
+Student_17,Data Engineering,75
+Student_48,ETL Design,94
+Student_17,Linux,87
+Student_58,Linux,85
+Student_24,Machine Learning,68
+Student_33,Spark,65
+Student_49,Python,67
+Student_10,Data Engineering,87
+Student_39,SQL,84
+Student_25,Linux,89
+Student_34,Statistics,95
+Student_56,Python,67
+Student_44,ETL Design,77
+Student_50,Data Visualization,67
+Student_19,Cloud Basics,70
+Student_30,Python,76
+Student_33,Data Engineering,92
+Student_59,SQL,100
+Student_20,ETL Design,98
+Student_13,Data Engineering,83
+Student_49,Data Engineering,94
+Student_50,ETL Design,60
+Student_39,Data Visualization,91
+Student_2,SQL,83
+Student_57,Statistics,75
+Student_4,Machine Learning,96
+Student_6,SQL,91
+Student_53,SQL,94
+Student_50,Data Engineering,68
+Student_43,Spark,95
+Student_11,Statistics,93
+Student_56,Linux,87
+Student_14,ETL Design,72
+Student_46,Statistics,85
+Student_43,Data Visualization,88
+Student_58,ETL Design,88
+Student_8,Machine Learning,74
+Student_5,Data Visualization,61
+Student_38,ETL Design,74

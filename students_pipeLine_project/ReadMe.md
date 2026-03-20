@@ -41,18 +41,22 @@ ETL=Extract,transform and load
 
 students_etl_project
     -data
-        students.csv
-        enrllment.csv
-        scores.csv
-        courses.csv
+        raw
+                students.csv
+                enrllment.csv
+                scores.csv
+                courses.csv
+        processed_data
+                final_report.csv
 etl
-        extract.py
-        tranform.py
-        load.py
+        extract.py-code to extract data from csv
+        tranform.py-to tranform
+        load.py--for loading 
 main.py
 
 
-
+Each file has one specific responsibility
+1.extract.py----Responsibile for reading csv files
 
 
 
