@@ -1,0 +1,17 @@
+{
+	"name": "lookupDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqlDBLs",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "file_table_mapping"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
