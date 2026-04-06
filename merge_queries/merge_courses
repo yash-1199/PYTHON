@@ -1,0 +1,33 @@
+CREATE PROCEDURE merge_courses
+AS
+BEGIN
+
+MERGE courses AS target
+USING (
+    SELECT *
+    FROM stg_courses
+    WHERE last_modified > (
+        SELECT ISNULL(last_load_time,'1900-01-01')
+        FROM metadata_table
+        WHERE table_name = 'courses'
+    )
+) AS source
+ON target.course_id = source.course_id
+
+WHEN MATCHED THEN
+    UPDATE SET 
+        target.course_name = source.course_name,
+        target.last_modified = source.last_modified
+
+WHEN NOT MATCHED THEN
+    INSERT (course_id, course_name, last_modified)
+    VALUES (source.course_id, source.course_name, source.last_modified);
+
+-- Update watermark
+UPDATE metadata_table
+SET last_load_time = (
+    SELECT MAX(last_modified) FROM courses
+)
+WHERE table_name = 'courses';
+
+END;
