@@ -1,0 +1,28 @@
+{
+	"name": "metaDSNew",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SINKLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "table_name",
+				"type": "varchar"
+			},
+			{
+				"name": "last_load_time",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "metadata_table"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

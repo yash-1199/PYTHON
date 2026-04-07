@@ -1,0 +1,43 @@
+{
+	"name": "mappingDsNew",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SINKLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "file_Name",
+				"type": "varchar"
+			},
+			{
+				"name": "table_Name",
+				"type": "varchar"
+			},
+			{
+				"name": "container_name",
+				"type": "varchar"
+			},
+			{
+				"name": "database_name",
+				"type": "varchar"
+			},
+			{
+				"name": "is_active",
+				"type": "bit"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "file_table_mapping"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

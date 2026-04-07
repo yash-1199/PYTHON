@@ -1,0 +1,31 @@
+{
+	"name": "sqlsinkDynamicDSNew",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SINKLS",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"databaseName": {
+				"type": "string"
+			},
+			"Table_name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().databaseName",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().Table_name",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
